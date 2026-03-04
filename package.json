@@ -12,7 +12,10 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "postinstall": "quasar prepare"
+    "postinstall": "quasar prepare",
+    "dev:ssr": "quasar dev -m ssr",
+    "build:ssr": "quasar build -m ssr",
+    "serve:ssr": "node ./dist/ssr/server/index.js"
   },
   "dependencies": {
     "axios": "^1.2.1",
