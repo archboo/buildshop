@@ -35,3 +35,11 @@ export default defineRouter(function (/* { store, ssrContext } */) {
 
   return Router
 })
+// import { createRouter, createWebHashHistory } from 'vue-router'
+// // или, если использовали только vue-router 4 и Quasar — так:
+// import routes from './routes'
+// const router = createRouter({
+//   history: createWebHashHistory(),
+//   routes,
+// })
+// export default router
